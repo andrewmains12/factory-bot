@@ -1,3 +1,6 @@
+# Factory definitions for Java
+
+Weekend project; didn't quite get far enough to be useful. Owes debts to factorygirl, factoryboy, etc.
 # Goals
 
 1. Construct domain objects simply, without having to worry about appropriate values
