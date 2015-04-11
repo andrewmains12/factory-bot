@@ -7,4 +7,8 @@ import java.lang.annotation.RetentionPolicy;
 public @interface Example {
 
     public Class<?> value();
+
+    public Class<?> context() default Sentinel.class;
+
+    public static class Sentinel {}
 }
